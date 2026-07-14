@@ -1004,3 +1004,105 @@ footer {
     width: 84px;
   }
 }
+
+/* Legal pages (terms.html / privacy.html) */
+.legal-page {
+  background: var(--white);
+}
+.legal-hero {
+  padding: 88px 80px 48px;
+  background:
+    linear-gradient(130deg, transparent 0 62%, rgba(44,44,44,0.04) 62% 100%),
+    var(--white);
+  border-bottom: 1px solid var(--g800);
+}
+.legal-hero p {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--main);
+  margin-bottom: 18px;
+}
+.legal-hero h1 {
+  font-family: var(--display);
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.1;
+  letter-spacing: 0;
+  margin-bottom: 18px;
+}
+.legal-hero span {
+  color: var(--g300);
+  font-weight: 700;
+}
+.legal-content {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 72px 40px 96px;
+}
+.legal-content h2 {
+  font-size: 24px;
+  line-height: 1.35;
+  margin: 42px 0 16px;
+}
+.legal-content h2:first-child {
+  margin-top: 0;
+}
+.legal-content p,
+.legal-content li {
+  color: var(--g100);
+  font-size: 16px;
+  line-height: 1.9;
+}
+.legal-content ul {
+  margin: 12px 0 0 22px;
+}
+.legal-content a {
+  color: var(--green-text);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.legal-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  border-top: 2px solid var(--black);
+}
+.legal-content th,
+.legal-content td {
+  border-bottom: 1px solid var(--g800);
+  padding: 16px;
+  text-align: left;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.legal-content th {
+  width: 24%;
+  background: var(--g900);
+  font-weight: 800;
+}
+
+@media (max-width: 1180px) {
+  .legal-hero { padding: 72px 40px 44px; }
+}
+
+@media (max-width: 640px) {
+  .legal-hero {
+    padding: 56px 24px 36px;
+  }
+  .legal-content {
+    padding: 48px 24px 72px;
+  }
+  .legal-content h2 {
+    font-size: 21px;
+  }
+  .legal-content th {
+    width: auto;
+  }
+  .legal-content th,
+  .legal-content td {
+    padding: 12px 10px;
+    font-size: 13px;
+  }
+}
