@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AiDeep for Google Meet — 회의가 끝나면, 정리는 이미 끝나 있습니다</title>
+  <link rel="icon" href="./logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <nav class="gnb">
+    <a class="gnb-logo" href="#hero">Ai<span>Deep</span></a>
+    <div class="gnb-nav">
+      <a href="#problem">왜 필요한가요</a>
+      <a href="#how">작동방식</a>
+      <a href="#features">핵심기능</a>
+      <a href="#compare">차별점</a>
+    </div>
+    <a href="#download" class="btn btn-primary">크롬 익스텐션 설치하기</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <span class="hero-eyebrow fade-up">AiDeep × Google Meet</span>
+        <h1 class="hero-title fade-up delay-1">회의가 끝나면,<br>정리는 이미<br><span>끝나 있습니다</span></h1>
+        <p class="hero-sub fade-up delay-2">
+          구글미트 자막을 실시간으로 읽어 AI가 회의록을 자동으로 요약하고,<br>
+          논의 흐름을 <mark>그래프</mark>로 한눈에 보여드립니다.
+        </p>
+        <div class="hero-actions fade-up delay-3">
+          <a href="#download" class="btn btn-primary">크롬 익스텐션 설치하기</a>
+          <a href="#how" class="btn btn-ghost">데모 보기</a>
+        </div>
+        <div class="hero-icons fade-up delay-4" aria-label="핵심 가치">
+          <div class="hero-icon-item">
+            <span>✦</span>
+            <strong>자막<br>자동 캡처</strong>
+          </div>
+          <div class="hero-icon-item">
+            <span>≡</span>
+            <strong>AI<br>실시간 요약</strong>
+          </div>
+          <div class="hero-icon-item">
+            <span>✓</span>
+            <strong>한눈에<br>그래프뷰</strong>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual device-stage fade-right delay-2" aria-hidden="true">
+        <div class="desktop-mockup">
+          <div class="device-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="screenshot-box">스크린샷</div>
+        </div>
+        <div class="tablet-mockup">
+          <div class="screenshot-box">스크린샷</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section dark-section" id="problem">
+      <div class="section-copy fade-left">
+        <h2>회의는 끝났는데,<br>정리는 <span>이제 시작</span>인가요?</h2>
+        <p>다들 겪고 있지만 아무도 좋아하지 않는 회의 뒤의 숙제. 이제 AiDeep이 대신합니다.</p>
+      </div>
+      <div class="feature-list">
+        <article class="feature-card fade-up">
+          <span class="feature-icon">▶</span>
+          <div>
+            <h3>녹화본을 처음부터 다시 보시나요?</h3>
+            <p>어떤 논의가 오갔는지 확인하려고 한 시간짜리 녹화를 다시 돌려보는 일, 이제 그만하셔도 됩니다.</p>
+          </div>
+        </article>
+        <article class="feature-card fade-up delay-1">
+          <span class="feature-icon">≡</span>
+          <div>
+            <h3>텍스트 회의록으로는 흐름이 안 보입니다</h3>
+            <p>줄글로 정리된 회의록은 안건 사이의 연결 관계와 의사결정 구조를 보여주지 못합니다.</p>
+          </div>
+        </article>
+        <article class="feature-card fade-up delay-2">
+          <span class="feature-icon">◷</span>
+          <div>
+            <h3>불참한 팀원은 맥락을 따라잡기 힘듭니다</h3>
+            <p>회의에 빠진 팀원이 "그래서 뭐가 결정된 거예요?"라고 묻지 않아도 되도록, 한눈에 캐치업하게 해주세요.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-section" id="how">
+      <div class="how-heading fade-up">
+        <h2>AiDeep,<br>어떻게 작동하나요?</h2>
+        <p style="margin-top: 24px; font-size: 17px;">설치 한 번이면 준비 끝.<br>별도의 녹화도, 업로드도 필요 없습니다.</p>
+      </div>
+      <div class="steps">
+        <article class="step fade-up delay-1">
+          <strong>01</strong>
+          <h3>구글미트에서 회의 시작</h3>
+          <p>평소처럼 회의를 시작하세요. 자막 기능만 켜두면 됩니다.</p>
+        </article>
+        <article class="step fade-up delay-2">
+          <strong>02</strong>
+          <h3>자막 자동 캡처</h3>
+          <p>익스텐션이 회의 내용을 실시간으로 수집합니다.</p>
+        </article>
+        <article class="step fade-up delay-3">
+          <strong>03</strong>
+          <h3>AI가 구조화</h3>
+          <p>AI가 논의 주제와 흐름을 자동으로 정리합니다.</p>
+        </article>
+        <article class="step fade-up delay-4">
+          <strong>04</strong>
+          <h3>그래프뷰로 확인</h3>
+          <p>회의가 끝나면 논의 구조가 그래프로 완성되어 있습니다.</p>
+        </article>
+      </div>
+      <div class="mock-flow">
+        <div class="mock-card caption-card fade-up delay-1">
+          <span class="cc-badge">CC</span>
+          <p>"이번 분기 목표부터<br>정리해볼까요?"</p>
+          <i></i><i></i>
+        </div>
+        <span class="flow-arrow fade-up delay-2">›</span>
+        <div class="mock-card analyze-card fade-up delay-2">
+          <span class="doc-icon">□</span>
+          <div class="mock-line active"></div>
+          <div class="mock-tree"></div>
+        </div>
+        <span class="flow-arrow fade-up delay-3">›</span>
+        <div class="mock-card graph-card fade-up delay-3">
+          <span class="doc-icon">◎</span>
+          <svg viewBox="0 0 220 128" aria-hidden="true">
+            <line x1="110" y1="30" x2="42" y2="86" stroke="#CFCFCF" stroke-width="2"/>
+            <line x1="110" y1="30" x2="120" y2="98" stroke="#CFCFCF" stroke-width="2"/>
+            <line x1="110" y1="30" x2="186" y2="72" stroke="#CFCFCF" stroke-width="2"/>
+            <line x1="42" y1="86" x2="120" y2="98" stroke="#E5E5E5" stroke-width="2"/>
+            <circle cx="110" cy="30" r="13" fill="#7FD51A"/>
+            <circle cx="42" cy="86" r="10" fill="#E5E5E5"/>
+            <circle cx="120" cy="98" r="10" fill="#E5E5E5"/>
+            <circle cx="186" cy="72" r="10" fill="#E5E5E5"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section dark-section" id="features">
+      <h2 class="section-title fade-up"><span>AiDeep</span>이<br>회의를 이렇게 바꿉니다.</h2>
+      <div class="case-grid">
+        <article class="case-card fade-up">
+          <span>🎙️</span>
+          <h3>자막 자동 추출</h3>
+          <p>설치만 하면 구글미트 자막을 실시간으로 수집합니다. 녹화도, 업로드도 필요 없어요.</p>
+        </article>
+        <article class="case-card fade-up delay-1">
+          <span>✨</span>
+          <h3>AI 자동 요약</h3>
+          <p>회의가 끝나는 순간, 핵심만 담긴 회의록이 이미 완성되어 있습니다.</p>
+        </article>
+        <article class="case-card fade-up delay-2">
+          <span>🕸️</span>
+          <h3>그래프뷰 시각화</h3>
+          <p>논의 주제와 흐름, 안건 사이의 관계를 연결 구조로 한눈에 파악합니다.</p>
+        </article>
+        <article class="case-card fade-up delay-3">
+          <span>⚡</span>
+          <h3>회의 중 라이브 업데이트</h3>
+          <p>회의가 진행되는 동안에도 논의 구조가 실시간으로 그려집니다.</p>
+        </article>
+      </div>
+      <div class="case-screenshot fade-up delay-2" aria-hidden="true">
+        <div class="wide-screenshot screenshot-box">스크린샷</div>
+      </div>
+    </section>
+
+    <section class="compare-section" id="compare">
+      <div class="compare-heading fade-up">
+        <h2>요약만 하는 도구와<br><span>구조를 보여주는</span> AiDeep</h2>
+        <p>텍스트 요약은 시작일 뿐입니다. AiDeep은 논의의 구조 자체를 보여줍니다.</p>
+      </div>
+      <div class="compare-grid">
+        <article class="compare-card fade-up delay-1">
+          <span class="compare-label">BEFORE</span>
+          <h3>기존 회의록 도구</h3>
+          <ul>
+            <li><b>✕</b>녹화 파일을 업로드하거나 수동으로 정리해야 함</li>
+            <li><b>✕</b>줄글 텍스트 요약만 제공</li>
+            <li><b>✕</b>회의가 끝난 뒤에야 정리가 시작됨</li>
+            <li><b>✕</b>안건 간 관계와 의사결정 흐름은 알 수 없음</li>
+          </ul>
+        </article>
+        <article class="compare-card ours fade-up delay-2">
+          <span class="compare-label">AIDEEP</span>
+          <h3>Ai<span>Deep</span> for Google Meet</h3>
+          <ul>
+            <li><b>✓</b>설치 후 즉시 사용 — 구글미트 자막을 그대로 활용</li>
+            <li><b>✓</b>논의 구조를 그래프로 시각화</li>
+            <li><b>✓</b>회의 중 실시간으로 정리가 완성됨</li>
+            <li><b>✓</b>안건 간 관계, 의사결정 흐름까지 한눈에</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="final-cta dark-section" id="download">
+      <div class="cta-copy fade-left">
+        <h2>다음 회의부터,<br>정리는 <span>AiDeep</span>에게<br>맡기세요.</h2>
+        <p>얼리액세스 신청자에게 크롬 익스텐션 출시 소식을 가장 먼저 알려드립니다.</p>
+        <form class="notify-form cta-notify" data-notify-form>
+          <label class="sr-only" for="ctaEmail">이메일 주소</label>
+          <input class="notify-input" id="ctaEmail" type="email" placeholder="이메일 주소를 입력하세요" required />
+          <button class="btn btn-primary" type="submit">얼리액세스 신청하기</button>
+          <p class="notify-success" aria-live="polite">신청되었습니다. 출시 소식을 가장 먼저 알려드릴게요.</p>
+        </form>
+      </div>
+      <div class="cta-preview fade-right delay-2" aria-hidden="true">
+        <div class="desktop-mockup dark-device">
+          <div class="device-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="screenshot-box">스크린샷</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="footer-logo">Ai<span>Deep</span></span>
+    <nav class="footer-links">
+      <a href="#">소개</a>
+      <a href="./terms.html">이용약관</a>
+      <a href="./privacy.html">개인정보처리방침</a>
+      <a href="mailto:seoki180@naver.com">문의하기</a>
+    </nav>
+    <span class="footer-copy">© 2026 AiDeep. All rights reserved.</span>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
