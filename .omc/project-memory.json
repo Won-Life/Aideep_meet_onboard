@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1784127008633,
+  "projectRoot": "/Users/seoki/Desktop/aideep/Aideep_meet_onboard",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "css": {
+      "path": "css",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1784127008581,
+      "keyFiles": [
+        "style.css"
+      ]
+    },
+    "js": {
+      "path": "js",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1784127008583,
+      "keyFiles": [
+        "main.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "index.html",
+      "accessCount": 6,
+      "lastAccessed": 1784128214318,
+      "type": "file"
+    },
+    {
+      "path": "css/style.css",
+      "accessCount": 4,
+      "lastAccessed": 1784128249922,
+      "type": "file"
+    },
+    {
+      "path": "KakaoTalk_Photo_2026-07-15-23-41-05.png",
+      "accessCount": 1,
+      "lastAccessed": 1784127634283,
+      "type": "file"
+    },
+    {
+      "path": "KakaoTalk_Photo_2026-07-15-23-40-59.png",
+      "accessCount": 1,
+      "lastAccessed": 1784127644335,
+      "type": "file"
+    },
+    {
+      "path": "KakaoTalk_Photo_2026-07-15-23-41-08.png",
+      "accessCount": 1,
+      "lastAccessed": 1784127645234,
+      "type": "file"
+    },
+    {
+      "path": "landing-desktop-full.png",
+      "accessCount": 1,
+      "lastAccessed": 1784128318923,
+      "type": "file"
+    },
+    {
+      "path": "landing-graph-section.png",
+      "accessCount": 1,
+      "lastAccessed": 1784128387245,
+      "type": "file"
+    },
+    {
+      "path": "landing-cta-section.png",
+      "accessCount": 1,
+      "lastAccessed": 1784128387884,
+      "type": "file"
+    },
+    {
+      "path": "landing-mobile-hero.png",
+      "accessCount": 1,
+      "lastAccessed": 1784128429555,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
