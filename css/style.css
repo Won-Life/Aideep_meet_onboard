@@ -728,8 +728,10 @@ footer {
 }
 .footer-links a:hover { color: var(--white); }
 .footer-copy {
-  font-family: var(--mono);
-  font-size: 11px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
   color: var(--g400);
 }
 
