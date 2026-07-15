@@ -740,6 +740,10 @@ footer {
   letter-spacing: 0.25px;
   color: var(--g400);
 }
+.footer-copy .brand-name {
+  font-family: var(--sans);
+  letter-spacing: inherit;
+}
 
 @media (max-width: 1180px) {
   .gnb { padding: 0 40px; }
