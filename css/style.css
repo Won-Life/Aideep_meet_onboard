@@ -154,9 +154,10 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--mono);
-  font-size: 13px;
+  font-family: var(--sans);
+  font-size: 14px;
   font-weight: 700;
+  letter-spacing: -0.15px;
   color: var(--green-text);
   background: var(--main10);
   border: 1px solid var(--main);
@@ -518,6 +519,14 @@ mark {
   font-size: 24px;
   margin-bottom: 42px;
 }
+.case-card .case-icon svg {
+  width: 26px;
+  height: 26px;
+  stroke: #a9b89b;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .case-card h3 {
   font-size: 21px;
   margin-bottom: 14px;
@@ -573,10 +582,10 @@ mark {
 }
 .compare-label {
   display: inline-block;
-  font-family: var(--mono);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.4px;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 750;
+  letter-spacing: -0.1px;
   padding: 6px 12px;
   border-radius: 999px;
   margin-bottom: 20px;
