@@ -1013,6 +1013,14 @@ footer {
 .legal-page {
   background: var(--white);
 }
+.legal-page .brand-name {
+  font-family: var(--sans);
+  letter-spacing: inherit;
+}
+.legal-hero .brand-name {
+  font-family: var(--brand);
+  letter-spacing: -0.4px;
+}
 .legal-hero {
   padding: 88px 80px 48px;
   background: #fafafa;
