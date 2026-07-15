@@ -37,6 +37,11 @@ window.addEventListener('scroll', () => {
     : 'none';
 });
 
+// 얼리액세스 신청 저장소: 구글 폼 (폼의 질문을 수정하면 아래 두 값도 갱신해야 함)
+const NOTIFY_FORM_ENDPOINT =
+  'https://docs.google.com/forms/d/e/1FAIpQLSc3tg4r6WO4zMFjh8kbHCBdcWjkQ1q90zTY3s-oDt5x1QfFCg/formResponse';
+const NOTIFY_EMAIL_ENTRY = 'entry.225956236';
+
 document.querySelectorAll('[data-notify-form]').forEach((form) => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -46,6 +51,14 @@ document.querySelectorAll('[data-notify-form]').forEach((form) => {
     const email = input.value.trim();
 
     if (!email) return;
+
+    // no-cors라 응답을 읽을 수 없음 — 성공 문구는 낙관적으로 표시
+    fetch(NOTIFY_FORM_ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ [NOTIFY_EMAIL_ENTRY]: email }),
+    });
 
     input.value = '';
     message.textContent = `신청되었습니다. ${email}로 출시 소식을 가장 먼저 알려드릴게요.`;
