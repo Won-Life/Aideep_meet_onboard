@@ -793,7 +793,11 @@ footer {
   }
   .flow-arrow {
     justify-self: center;
-    transform: rotate(90deg);
+    font-size: 0;
+  }
+  .flow-arrow::after {
+    content: '∨';
+    font-size: 22px;
   }
   .compare-grid { grid-template-columns: 1fr; }
   .compare-card.ours { border-left: 0; }
@@ -935,10 +939,16 @@ footer {
   .hero-sub br {
     display: none;
   }
-  .hero-actions .btn { width: 100%; }
-  .notify-input,
+  .hero-actions { flex-wrap: nowrap; }
+  .hero-actions .btn { flex: 1; }
+  .notify-input {
+    height: 48px;
+    font-size: 15px;
+  }
   .notify-form .btn {
-    height: 50px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 800;
   }
   .hero-visual {
     min-height: 238px;
