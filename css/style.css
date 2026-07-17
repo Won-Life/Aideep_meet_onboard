@@ -535,10 +535,13 @@ mark {
   margin-top: 64px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
 }
-.wide-screenshot {
-  width: min(880px, 88vw);
-  min-height: 320px;
+.case-screenshot-box {
+  width: min(560px, 88vw);
+  aspect-ratio: 1.73 / 1;
+  min-height: 0;
   border-radius: 22px;
 }
 
@@ -901,9 +904,6 @@ footer {
   }
   .screenshot-box {
     min-height: 150px;
-  }
-  .wide-screenshot {
-    min-height: 220px;
   }
   footer {
     padding: 28px 24px;
