@@ -408,37 +408,29 @@ mark {
   padding: 30px 34px;
   position: relative;
 }
-.caption-card .cc-badge {
+.cc-badge {
   position: absolute;
   top: 14px;
   left: 18px;
-  width: 42px;
+  min-width: 42px;
   height: 42px;
+  padding: 0 10px;
   border-radius: 10px;
   background: var(--main);
   color: var(--black);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--mono);
+  font-family: var(--sans);
   font-size: 15px;
   font-weight: 800;
 }
-.caption-card p {
+.shot-card p {
   margin-top: 34px;
   font-size: 16px;
   font-weight: 700;
   color: var(--black);
 }
-.caption-card i {
-  display: block;
-  width: 74%;
-  height: 8px;
-  border-radius: 999px;
-  background: var(--g800);
-  margin-top: 14px;
-}
-.caption-card i:last-child { width: 52%; }
 .flow-arrow {
   width: 34px;
   height: 34px;
@@ -451,34 +443,11 @@ mark {
   font-size: 28px;
   line-height: 1;
 }
-.doc-icon {
-  display: block;
-  font-size: 24px;
-  margin-bottom: 30px;
-}
-.mock-line {
-  height: 10px;
-  border-radius: 999px;
-  background: var(--g800);
-}
-.mock-line.active {
-  width: 70%;
-  margin-left: 36px;
-  background: var(--main);
-}
-.mock-tree {
+.shot-card .shot-visual {
   margin-top: 16px;
-  height: 9px;
-  border-radius: 999px;
-  background: var(--g800);
-  width: 52%;
-  margin-left: 54px;
-  box-shadow: 18px 22px 0 var(--g800), 44px 44px 0 var(--g800);
-}
-.graph-card svg {
-  display: block;
-  width: 100%;
-  height: 128px;
+  aspect-ratio: 16 / 10;
+  min-height: 0;
+  border-radius: 10px;
 }
 
 .case-section {
